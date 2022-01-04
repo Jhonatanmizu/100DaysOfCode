@@ -10,13 +10,17 @@
 body {
   font-family: "Ubuntu", sans-serif;
   width: 100%;
-  color: #fff;
+  /* color: #fff; */
   background-color: rgb(244, 234, 255);
 }
 header {
   text-align: center;
+  padding: 32px;
 }
 .title {
   color: var(--purple-color);
   height: 52px;
+}
+header .header-logo {
+  width: 300px;
 }
