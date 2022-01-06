@@ -10,7 +10,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   width: 100%;
-  /* color: #fff; */
+
   background-color: rgb(244, 234, 255);
 }
 header {
@@ -23,4 +23,44 @@ header {
 }
 header .header-logo {
   width: 300px;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  border-radius: 8px;
+  margin: 32px auto;
+  padding: 32px;
+  width: 700px;
+  color: rgb(248, 241, 255);
+  background-color: rgb(122, 74, 218);
+}
+.main a {
+  color: rgb(36, 3, 102);
+  background-color: rgb(255, 237, 177);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+.main a:hover,
+a:active {
+  background-color: rgb(250, 201, 39);
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+.list .extra-important {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+.highlight {
+  font-weight: 700;
 }
